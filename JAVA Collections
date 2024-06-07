@@ -1,0 +1,60 @@
+Java Arrays:-
+Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. 
+
+Index-Based: Array elements are indexed starting from 0, meaning the first element is at index 0, the second element is at index 1, and so on.
+Homogeneous: All elements in an array must be of the same type, whether it's primitive types like int, char, double, etc., or objects like String, Integer, etc.
+Memory Location: Arrays are stored in contiguous memory locations, which makes accessing elements by index very fast.
+
+The java.util.Arrays class provides many useful methods for array manipulation. 
+sort(originalArray): Sorts the array in ascending order.
+equals(array1, array2): Returns true if the two specified arrays are equal to one another.
+toString(originalArray) : Returns a string representation of the contents of the specified array. 
+
+Java Strings:-
+In Java, a String is an immutable sequence of characters. The String class is part of the java.lang package and is one of the most commonly used classes in Java. Since String is immutable, once a String object is created, its value cannot be changed.
+
+Creating Strings
+You can create strings in Java in two ways:
+
+String Literal: Using double quotes.
+String str1 = "Hello, World!";
+Using new Keyword: This creates a new string object.
+String str2 = new String("Hello, World!");
+
+Common String Methods
+The String class provides many methods to perform various operations on strings:
+Length: Returns the number of characters in the string.
+int length = str1.length();
+
+Char At: Returns the character at a specified index.
+char ch = str1.charAt(0);
+
+Substring: Returns a substring from the string.
+String substr = str1.substring(7); // "World!"
+String substr2 = str1.substring(7, 12); // "World"
+
+Equals: Compares two strings for content equality.
+boolean isEqual = str1.equals(str2);
+
+
+Strig BufferClass:-
+
+Java StringBuffer class is used to create mutable (modifiable) String objects. 
+
+Important Constructors of StringBuffer Class
+Constructor	
+StringBuffer()	It creates an empty String buffer with the initial capacity of 16.
+StringBuffer(String str)	It creates a String buffer with the specified string..
+StringBuffer(int capacity)	It creates an empty String buffer with the specified capacity as length.
+
+Common Methods in StringBuffer
+append(): Adds the specified string representation to the end of the buffer.
+insert(): Inserts the specified string representation into the buffer at the specified position.
+delete(): Removes a substring from the buffer.
+deleteCharAt(): Removes the character at the specified position from the buffer.
+replace(): Replaces a substring in the buffer with another substring.
+reverse(): Reverses the characters in the buffer.
+substring(): Returns a new string that is a substring of the buffer.
+
+String Builder in java
+
